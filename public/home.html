@@ -1,0 +1,33 @@
+<div class="row feed">
+	<div class="col-md-4">
+		<div ng-hide="currentUser">
+			<h4>Login:</h4>
+			<br>
+			<input type="text" size="30" placeholder="Username" ng-model="username">
+			<br><br>
+			<input type="password" size="30" placeholder="Password" ng-model="password">
+			<br><br>
+			<button type="button" ng-click="login()">Log In</button>
+			<br><br>
+			<a href="#/signup">Tell us abput your brokes, Signup</a>
+		</div>
+		<div id="UserHomeBord" ng-show="currentUser">
+			Hello, {{ currentUser }}.
+			<br><br>
+			<a href ng-click="logout()">Logout</a>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="new-broken" ng-show="currentUser">
+			<input type="text" class="form-control" ng-model="newBroken" placeholder="What do you broke today?">
+			<button type="button" ng-click="submitNewBroken()">Submit</button>
+		</div>
+		<h3 ng-repeat="brokes in brokes">
+		<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+			{{ brokes.text }}
+			<a href ng-click="removeBroke(brokes)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+			<br>
+			<small>{{ brokes.username }}</small>
+		</h3>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "vpob-thx",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jwt-simple": "^0.5.0",
+    "mongodb": "^2.1.18"
+  },
+  "private": true
+}

@@ -1,0 +1,170 @@
+
+		body{
+			min-height: 100%;
+			background-image: url(img/background.jpg); 
+		    color:#fff;
+		    text-shadow:1px 1px 1px #000;
+		    background-repeat: no-repeat;
+		    background-position: center; 
+		    background-size: cover;
+		}
+
+		h1 a:hover, a:active{
+			text-decoration: none;
+			font-size: 34px;
+		}
+		h1 a:visited, a:link{
+			text-decoration: none;
+			color: #337AB7;
+		}
+		p{
+			color: #a2cf70;
+			margin-top: -1em;
+			margin-left: 7em;
+			font-family: cursive, sans-serif;
+		}
+
+		.feed {
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top: 50px;
+			min-height: 100px;
+		}
+
+		.feed h3{
+			border: 1px solid #333;
+			padding: 20px;
+			border-radius: 12px;
+			background-color: #A3D2FB;
+			opacity: 0.6;
+		}
+		.feed h3:hover{opacity: 0.9;}
+
+		.page-title{
+			margin-left: 100px;
+		}
+
+		.new-broken{
+			border: 1px solid #333;
+			padding: 20px;
+			width: 100%
+		}
+		.col-md-4{
+			border: 1px solid grey;
+			background-color: #EEB1EE;
+			opacity: 0.6;
+			border-radius: 10px;
+		}
+		.col-md-4:hover{
+			opacity: 0.9;
+		}
+		.col-md-4 input{
+			color: black;
+			font-family: cursive, sans-serif;
+		}
+button{
+	 position: relative;
+	  display: inline-block;
+	  font-size: 18px;
+	  font-weight: bold;
+	  color: hsl(88, 70%, 30%);
+	  text-shadow: rgba(255,255,255,.5) 0 -1px 0, rgba(0,0,0,.2) 0 .18em .15em;
+	  text-decoration: none;
+	  user-select: none;
+	  margin: .5em;
+	  padding: .5em .6em .4em .6em;
+	  border-radius: 8px;
+	  border-top: 1px solid rgba(255,255,255,.1);
+	  border-bottom: 1px solid rgba(0,0,0,.1);
+	  outline: none;
+	  background: #a2cf70 radial-gradient(rgba(255,255,255,0), rgba(255,255,255,.5));
+	  box-shadow:
+	   inset rgba(255,255,255,.6) 0 .3em .3em,
+	   inset rgba(0,0,0,.2) 0 -.1em .3em,
+	   rgb(128,161,103) 0 7px 1px,
+	   rgba(0,0,0,.2) 0 .5em 5px;
+	  transition: background .2s ease-in-out;
+}
+button:hover {
+  background-color: hsl(88, 70%, 75%);
+}
+button:active {
+  top: .2em;
+  color: rgba(254,255,255,.9);
+  text-shadow: rgba(0,0,0,.2) 0 1px 2px;
+  box-shadow:
+   inset rgba(255,255,255,.6) 0 .3em .3em,
+   inset rgba(0,0,0,.2) 0 -.1em .3em,
+   rgba(0,0,0,.4) 0 .1em 1px,
+   rgba(0,0,0,.3) 0 .2em 6px;
+}
+button:after {
+  content:  "";
+  position:  absolute; 
+  width:   90%;
+  height:  60%;
+  top:   0;
+  left:   5%;    
+  border-radius:    .5em .5em 1em 1em / .5em .5em 2em 2em;
+  background-image: linear-gradient(rgba(255,255,255,.55), rgba(255,255,255,.3)); 
+}
+button:active:after {
+  opacity: .6;
+}
+.singupBox{
+	margin-left: 3em;
+	height: 45em;
+
+}
+.singupBox div{
+border: 2px solid grey;
+display: inline-block;
+/*margin-left: 35em;
+margin-top: 10em;*/
+margin: auto; 
+width: 40em;
+height: 20em;
+border-radius: 15px;
+background-color: rgba(209,213,216,.6);
+padding: 7em;
+
+	 /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+.singupBox input{
+	padding: 0.5em;
+	color: black;
+	font-family: cursive, sans-serif;
+	margin-left: 2em;
+}
+.singupBox button{
+	top: -1.5em;
+}
+.singupBox h3{
+	text-align: center;
+	margin-top: 3em;
+	font-family: cursive, sans-serif;
+	font-size: 2.7em;
+}
+#UserHomeBord {
+	text-align: center;
+	font-family: cursive, sans-serif;
+	font-size: 2em;
+
+}
+.new-broken{
+	border-radius: 15px;
+	font-family: cursive, sans-serif;
+}
