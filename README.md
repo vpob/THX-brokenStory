@@ -13,4 +13,4 @@ To see how app work you can by link -----> https://hidden-ocean-47740.herokuapp.
 (Test was on Opera, Chrome and Maxthon browsers, it can de issues with wokr in Firefox and Internet Explorer)
 
 
-The more simplest varant of aplication is here :  https://github.com/vpob/For-Post-Application
+The more simplest varant of aplication is here :  https://young-escarpment-63200.herokuapp.com
