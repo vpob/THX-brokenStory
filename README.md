@@ -11,3 +11,6 @@ Also you can delete your message and you cannot delete message from another user
 
 To see how app work you can by link -----> https://hidden-ocean-47740.herokuapp.com/#/
 (Test was on Opera, Chrome and Maxthon browsers, it can de issues with wokr in Firefox and Internet Explorer)
+
+
+The simple varant of aplication is here :  https://github.com/vpob/For-Post-Application
